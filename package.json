@@ -1,22 +1,20 @@
 {
-  "name": "fastlegeminer",
-  "version": "0.0.0",
-  "description": "",
+  "name": "minfastlege-dataminer",
+  "version": "0.0.1",
+  "description": "Mine fastleger from MinFastlege service from NAV in Norway",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha tests/"
   },
-  "author": "",
-  "license": "BSD",
+  "author": "Jørn Andre Tangen @ WTWSoftware",
+  "license": "MIT",
   "dependencies": {
     "cheerio": "~0.12.2",
     "hyperquest": "~0.1.8",
     "querystring": "~0.2.0",
-    "iconv": "~2.0.7",
     "async": "~0.2.9",
-    "underscore": "~1.5.2"
-  },
-  "devDependencies": {
-    "expect.js": "~0.2.0"
+    "underscore": "~1.5.2",
+    "expect.js": "~0.2.0",
+    "mocha": "~1.13.0"
   }
 }
