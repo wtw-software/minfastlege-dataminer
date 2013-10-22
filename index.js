@@ -1,5 +1,9 @@
-module.exports = {
 
+/**
+ * @requires module:lib/fastlege
+ */
+module.exports = {
+  
 	fastlege: require( './lib/fastlege' ),
 
 	fylke: require( './lib/fylke' ),
