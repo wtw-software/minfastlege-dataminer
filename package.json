@@ -1,0 +1,42 @@
+{
+  "name": "minfastlege-dataminer",
+  "version": "0.0.1",
+  "description": "Mine data about fastleger from NAV in Norway",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "cheerio": "~0.12.2",
+    "expect.js": "~0.2.0",
+    "hyperquest": "~0.1.8",
+    "querystring": "~0.2.0",
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtw-software/minfastlege-dataminer.git"
+  },
+  "keywords": [
+    "NAV",
+    "fastleger",
+    "fastlege",
+    "general",
+    "practicioner",
+    "doctor",
+    "doctorsoffice",
+    "norway"
+  ],
+  "author": "Jørn Andre Tangen @gorillatron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wtw-software/minfastlege-dataminer/issues"
+  }
+}
